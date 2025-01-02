@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Text Extractor</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include PDF.js from a CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+</head>
+
+<body>
+    <h1>Extract Text from PDF</h1>
+    <div id="upload-section">
+        <input type="file" id="pdf-upload" accept=".pdf">
+        <button id="extract-text">Extract Text</button>
+    </div>
+    <textarea id="output" placeholder="Extracted text will appear here..." readonly></textarea>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
